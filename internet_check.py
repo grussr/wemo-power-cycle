@@ -1,7 +1,8 @@
+#!/usr/bin/python
+
 import pywemo
 import time
 import argparse
-
 import socket
 
 def internet_on(host="8.8.8.8", port=53, timeout=3):
